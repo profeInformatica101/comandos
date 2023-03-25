@@ -1,0 +1,12 @@
+sudo apt update
+sudo apt upgrade
+
+sudo apt install -y libx11-xcb-dev libxcb-dri3-0 libdrm2 libgbm1 libxcb-dri2-0 libxcb-glx0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-render0 libxcb-shape0 libxcb-shm0 libxcb-sync-dev libxcb-util1 libxcb-xfixes0 libxcb-xinerama0 libxcb-xkb-dev libxshmfence-dev libxcb-dri3-dev libxcb-present-dev
+
+wget https://aka.ms/linux-armhf-deb
+
+sudo dpkg -i linux-armhf-deb
+
+rm linux-armhf-deb
+
+    
