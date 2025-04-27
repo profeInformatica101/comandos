@@ -6,7 +6,7 @@
 
 | Comando | Parámetro(s) útil(es) | Descripción breve | Ejemplo de comando | Ejemplo de ejecución |
 |:--------|:----------------------|:------------------|:-------------------|:---------------------|
-| `ps` | `-e`, `-o pid,comm` | Listar procesos | `ps -e -o pid,comm` | Muestra todos los procesos y sus nombres |
+| `ps` | `-e`, `-o pid,comm, %cpu` | Listar procesos | `ps -e -o pid,comm` | Muestra todos los procesos y sus nombres |
 | `kill` | `-9 pid` | Matar un proceso | `kill -9 1234` | Mata el proceso con PID 1234 |
 | `pkill` | `nombre` | Matar proceso por nombre | `pkill firefox` | Mata todos los procesos `firefox` |
 
